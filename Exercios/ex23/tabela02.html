@@ -7,19 +7,39 @@
     <style>
         table{
             width: 500px;
+            border-collapse: collapse;
+            position: relative;
         }
         td, th{
             border: 1px solid black;
+            
             padding: 10px;
+            
         }
         thead, tfoot{
-            background-color: gray;
+            background-color: rgb(83, 83, 83);
+            color: white;
+        }
+        thead > tr > th{
+            position: sticky;
+            top: -1px;
+            background-color: rgb(83, 83, 83); 
+        }
+        caption{
+            background-color: lightgray;
+            font-size: 1.5em;
+            font-weight: bolder;
+            padding: 10px;
+        }
+        tbody > tr:nth-child(2n){
+            background-color: rgb(170, 170, 170);
         }
     </style>
 </head>
 <body>
     <h1>Tabelas grandes</h1>
     <table>
+        <caption>Populaçao do Brasil</caption>
         <thead>
             <tr>
                 <th>Estado</th>
@@ -39,10 +59,124 @@
                 <td>Rio de Janeiro</td>
                 <td>17 456 567</td>
             </tr>
+            <tr>
+                <td>Parana</td>
+                <td>15 456 567</td>
+            </tr>
+            <tr>
+                <td>Rio Grande do Sul</td>
+                <td>10 456 567</td>
+            </tr>
+            <tr>
+                <td>Pernambuco</td>
+                <td>8 456 567</td>
+            </tr>
+            <tr>
+                <td>Pernambuco</td>
+                <td>8 456 567</td>
+            </tr>
+            <tr>
+                <td>Pernambuco</td>
+                <td>8 456 567</td>
+            </tr>
+            <tr>
+                <td>Pernambuco</td>
+                <td>8 456 567</td>
+            </tr>
+            <tr>
+                <td>Pernambuco</td>
+                <td>8 456 567</td>
+            </tr>
+            <tr>
+                <td>Pernambuco</td>
+                <td>8 456 567</td>
+            </tr>
+            <tr>
+                <td>Pernambuco</td>
+                <td>8 456 567</td>
+            </tr>
+            <tr>
+                <td>Pernambuco</td>
+                <td>8 456 567</td>
+            </tr>
+            <tr>
+                <td>Pernambuco</td>
+                <td>8 456 567</td>
+            </tr>
+            <tr>
+                <td>Pernambuco</td>
+                <td>8 456 567</td>
+            </tr>
+            <tr>
+                <td>Pernambuco</td>
+                <td>8 456 567</td>
+            </tr>
+            <tr>
+                <td>Pernambuco</td>
+                <td>8 456 567</td>
+            </tr>
+            <tr>
+                <td>Pernambuco</td>
+                <td>8 456 567</td>
+            </tr>
+            <tr>
+                <td>Pernambuco</td>
+                <td>8 456 567</td>
+            </tr>
+            <tr>
+                <td>Pernambuco</td>
+                <td>8 456 567</td>
+            </tr>
+            <tr>
+                <td>Pernambuco</td>
+                <td>8 456 567</td>
+            </tr>
+            <tr>
+                <td>Pernambuco</td>
+                <td>8 456 567</td>
+            </tr>
+            <tr>
+                <td>Pernambuco</td>
+                <td>8 456 567</td>
+            </tr>
+            <tr>
+                <td>Pernambuco</td>
+                <td>8 456 567</td>
+            </tr>
+            <tr>
+                <td>Pernambuco</td>
+                <td>8 456 567</td>
+            </tr>
+            <tr>
+                <td>Pernambuco</td>
+                <td>8 456 567</td>
+            </tr>
+            <tr>
+                <td>Pernambuco</td>
+                <td>8 456 567</td>
+            </tr>
+            <tr>
+                <td>Pernambuco</td>
+                <td>8 456 567</td>
+            </tr>
+            <tr>
+                <td>Pernambuco</td>
+                <td>8 456 567</td>
+            </tr>
+            <tr>
+                <td>Pernambuco</td>
+                <td>8 456 567</td>
+            </tr>
+            <tr>
+                <td>Pernambuco</td>
+                <td>8 456 567</td>
+            </tr>
+            
+            
         </tbody>
         <tfoot>
             <th>Total de Habitantes</th>
-            <td>00000</td>
+            <td id="cor"><strong>89 272 626</strong></td>
         </tfoot>
     </table>
 </body>
